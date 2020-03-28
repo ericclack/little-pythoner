@@ -10,7 +10,7 @@ the answer we've given. Do try these out in the :ref:`repl`.
 
 ----
 
-What's this? :
+What's this? ::
 
   1
 
