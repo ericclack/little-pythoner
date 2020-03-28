@@ -9,6 +9,8 @@ Open up a command prompt, or the Terminal app on a Mac and type: ::
 
   python3
 
+Or you could use an online service such as https://repl.it/
+
 You'll see something like this: ::
 
   Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21) 

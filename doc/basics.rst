@@ -28,12 +28,12 @@ What about this, still a number? ::
 
   1.28374
 
-* Yes, that's a :code:`float`, which means a floating point number, a
+* Yes, that's a `float`, which means a floating point number, a
   bit bigger than 1.
 
-If 1.2874 is a :code:`float` what type of number is :code:`123`?
+If 1.2874 is a `float` what type of number is `123`?
 
-* It is an :code:`int`, which means integer or whole number. 
+* It is an `int`, which means integer or whole number. 
 
 ----
   
@@ -41,20 +41,34 @@ What's this? ::
 
   "Hello"
 
-* It is a :code:`string`, a sequence of characters. 
+* It is a `string`, a sequence of characters. 
 
-What's this? ::
+Is this a string? ::
 
   'h'
 
 * It is also a string but with just one character. In Python you can
-  use :code:`"` or :code:`'` to mark strings.
+  use `"` or `'` to mark strings.
 
-So what happens if we do this? ::
+Is this a string? ::
+
+  'abcdef
+
+* No, we start it with a `'` but don't finish it. Python lets us know with
+  an exception: `SyntaxError: EOL while scanning string literal`
+
+What about this, is it a string? ::
+
+  'one two three four five"
+  
+* No, somehow we changed our mind whether to use `'` or `"`. We have to
+  use the same one at the start and end of the string. 
+  
+What happens if we do this? ::
 
   'hello' + 'world'
 
-* It produces the string :code:`'helloworld'`.
+* `+` can join two strings together. It produces the string `'helloworld'`.
 
 How would we get a space in that string?
 
@@ -107,7 +121,7 @@ Here's a tricky one, what does this produce? ::
   5 > 'five'
 
 * This won't work in Python. It raises an exception, a `TypeError`,
-  we're told that: :code:`'>' not supported between instances of 'int'
+  we're told that: `'>' not supported between instances of 'int'
   and 'str'`
 * That's good to know!
 
@@ -137,7 +151,7 @@ What does this do? ::
   name. It then joins the two together with a space and produces
   'hello eric'.
 
-What about this, what does it do and produce? ::
+What about this, what does it do, and what does it produce? ::
 
   greeting = 'Hello'
   name = input('Enter your name: ')
@@ -145,7 +159,7 @@ What about this, what does it do and produce? ::
 
 * It creates a greeting variable with a string, then creates a name
   variable using whatever the user types at the prompt. It then produces
-  a string containing a greeting.
+  a string containing a greeting for the user. 
 
 ----
 
@@ -154,3 +168,30 @@ Things are getting a bit more complicated now! Do try these out in the
 
 ----
 
+What does this do? ::
+
+  v = 5
+  v*v
+  v = v - 1
+  v*v
+
+* It creates a variable called `v` and sets it to `5` and then
+  produces the square of `5` which is `25`, it then reduces `v` by one
+  so that it becomes `4` and produces the square of this which is
+  `16`.
+
+How could we produce all the square numbers between `25` and `1`? ::
+
+  v = 5
+  v*v
+  v = v - 1
+  v*v
+  v = v - 1
+  v*v
+  v = v - 1
+  v*v
+  v = v - 1
+  v*v
+
+* That's a lot of work to produce 5 numbers! Python has a better way,
+  you'll find out how in the next section :ref:`loops`.

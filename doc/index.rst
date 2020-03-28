@@ -6,18 +6,17 @@
 Welcome to Little Pythoner's documentation!
 ===========================================
 
+Learn the Python programming language one question (and answer) at a
+time. Understand the fundamentals first so that you have the knowledge
+to make solid progress.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    basics
-             
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   repl
+   lists
+   loops
+   functions
+   conditionals
