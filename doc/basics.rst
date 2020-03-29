@@ -9,6 +9,9 @@ comparisons and variables.
 Look at each question and see if you can answer it, then check with
 the answer we've given. Do try these out in the :ref:`repl`.
 
+**Remember:** *understanding* is the most imporant thing, don't move
+on until you really understand the question and answer.
+
 ----
 
 What's this? ::

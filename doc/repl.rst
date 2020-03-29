@@ -3,7 +3,7 @@
 The Python REPL
 ===============
 
-Try out Python using the REPL -- the read, evaluate, print loop. 
+Try out Python using the REPL -- the Read, Evaluate, Print Loop.
 
 Open up a command prompt, or the Terminal app on a Mac and type: ::
 

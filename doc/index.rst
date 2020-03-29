@@ -10,6 +10,12 @@ Learn the Python programming language one question (and answer) at a
 time. Understand the fundamentals first so that you have the knowledge
 to make solid progress.
 
+Currently this document is aimed at kids that attend code clubs such
+as `Coder Dojo Brighton`_. Over time we hope to make it fit for anyone
+that wants to learn Python. 
+
+Inspired by `The Little Schemer`_. 
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -20,3 +26,6 @@ to make solid progress.
    loops
    functions
    conditionals
+
+.. _`The Little Schemer`: https://mitpress.mit.edu/books/little-schemer-fourth-edition
+.. _`Coder Dojo Brighton`: https://www.coderdojobrighton.co.uk/

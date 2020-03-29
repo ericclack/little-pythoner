@@ -8,6 +8,9 @@ Learn about loops in Python so that you can do things many times.
 Look at each question and see if you can answer it, then check with
 the answer we've given. Do try these out in the :ref:`repl`.
 
+**Remember:** *understanding* is the most imporant thing, don't move
+on until you really understand the question and answer.
+
 ----
 
 What does this do? ::
@@ -17,12 +20,40 @@ What does this do? ::
 
 * It sets up a loop, that runs forever.
 * The `body` of the loop is the string `'I run forever!'`
-* The `body` is indented by some spaces so that Python
+* The `body` is *indented* by some spaces so that Python
   knows what is `inside` the loop.
-* Indentation is really imporant in Python to mark out diffent
+* *Indentation* is really imporant in Python to mark out diffent
   blocks of code. 
 * The code produces the string `'I run forever!'` forever!
 
+That's a lot of new things to take in! Is this code properly indented?
+::
+
+   while True:
+   'banana'
+
+* No, `'banana'` is not indented, so there is nothing inside the
+  `while` loop.
+
+Is this code properly indented? ::
+
+  while True:
+                           'lemon'
+
+* Yes, but it not very tidy. We usually use two spaces to indent.
+
+Well what about these two lines inside the loop, are they properly
+indented? ::
+
+  while True:
+    'apple'
+      'orange'
+
+* No, `'apple'` and `'orange'` must be indented by the same amount,
+  they should line up.
+
+----
+  
 Do we ever see the string `'all done'`? ::
 
   while True:
