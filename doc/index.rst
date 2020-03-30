@@ -14,8 +14,6 @@ Currently this document is aimed at kids that attend code clubs such
 as `Coder Dojo Brighton`_. Over time we hope to make it fit for anyone
 that wants to learn Python. 
 
-Inspired by `The Little Schemer`_. 
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -27,7 +25,11 @@ Inspired by `The Little Schemer`_.
    functions
    conditionals
 
+----
+   
 Find this document at: https://little-pythoner.readthedocs.io/
+
+Inspired by `The Little Schemer`_. 
 
 .. _`The Little Schemer`: https://mitpress.mit.edu/books/little-schemer-fourth-edition
 .. _`Coder Dojo Brighton`: https://www.coderdojobrighton.co.uk/
