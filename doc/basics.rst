@@ -36,7 +36,20 @@ What about this, still a number? ::
 
 If 1.2874 is a `float` what type of number is `123`?
 
-* It is an `int`, which means integer or whole number. 
+* It is an `int`, which means integer or whole number.
+
+What type of number does this expression produce? ::
+
+  9/3
+
+* It produces an `int` because `9/3` equals `3` exactly.
+
+What type of number is produced here? ::
+
+  1/3
+
+* It produces a `float` because `1/3` is (very nearly) equal to
+  `0.3333333333333333`.
 
 ----
   
