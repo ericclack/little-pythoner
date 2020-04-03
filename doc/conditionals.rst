@@ -56,5 +56,31 @@ If `v` is any other number does it only print `end`?
 Why do we use `==` when comparing variables and numbers?
 
 * A single `=` means assign a value to a variable, a double `==` means
-  compare two things. Python uses two different operators to avoid
-  confusions. 
+  test whether two expressions are equal. Python uses two different
+  operators to avoid confusions.
+
+OK, so back to the challenge: how do we produce the even squares of
+numbers 1 to 20?
+
+* I need to know how to test for an even number.
+
+Good point, you can do that using the remainder or modulus operator:
+`%` - this returns the remainder after a divition.
+
+* So `11` divided by `2` has remainder `1`, so we would write that in
+  Python like this:
+
+::
+     
+  11 % 2 == 1
+
+Yes, so what does the code look like? 
+
+* This code should do it:
+
+::
+
+   for v in range(1, 21):
+     s = v*v
+     if s % 2 == 0:
+       s
