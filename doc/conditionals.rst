@@ -14,7 +14,8 @@ on until you really understand the question and answer.
 
 ----
 
-You've already seen a conditional in the last section, do you remember where?
+You've already seen a conditional in the last section :ref:`loops`, do
+you remember where?
 
 * Was it in this line of code?
 
@@ -81,6 +82,5 @@ Yes, so what does the code look like?
 ::
 
    for v in range(1, 21):
-     s = v*v
-     if s % 2 == 0:
-       s
+     if v*v % 2 == 0:
+       v*v
