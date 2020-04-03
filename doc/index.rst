@@ -20,10 +20,10 @@ that wants to learn Python.
 
    basics
    repl
-   lists
    loops
-   functions
    conditionals
+   lists
+   functions
 
 ----
    

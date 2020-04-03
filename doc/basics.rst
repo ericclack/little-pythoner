@@ -209,5 +209,5 @@ How could we produce all the square numbers between `25` and `1`? ::
   v = v - 1
   v*v
 
-* That's a lot of work to produce 5 numbers! Python has a better way,
-  you'll find out how in the next section :ref:`loops`.
+That's a lot of work to produce 5 numbers! Python has a better way,
+you'll find out how in the next section :ref:`loops`.

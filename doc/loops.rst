@@ -22,8 +22,8 @@ What does this do? ::
 * The `body` of the loop is the string `'I run forever!'`
 * The `body` is *indented* by some spaces so that Python
   knows what is `inside` the loop.
-* *Indentation* is really imporant in Python to mark out diffent
-  blocks of code. 
+* *Indentation* is really imporant in Python to mark out different
+  blocks of code.
 * The code produces the string `'I run forever!'` forever!
 
 That's a lot of new things to take in! Is this code properly indented?
@@ -94,5 +94,22 @@ from 25 to 1, counting down? ::
 
 * OK, so `range` now produces numbers from `5` down to `0`, stepping
   `-1` at a time, so going down by `1` each time.
+
+Let's try and produce the even squares of numbers 1 to 20. What does
+the loop look like?
+
+* This loop produces all of the squares for the numbers 1 to 20, the
+  evens *and* the odds:
+
+::
+
+  for v in range(1, 21):
+    v*v
+
+What is missing?
+
+* We need to test whether `v*v` is even.
+
+Read on to the next section to learn how to do this: :ref:`conditionals`. 
 
   
