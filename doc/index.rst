@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Little Pythoner's documentation!
-===========================================
+Welcome to the Little Pythoner!
+===============================
 
 Learn the Python programming language one question (and answer) at a
 time. Understand the fundamentals first so that you have the knowledge
