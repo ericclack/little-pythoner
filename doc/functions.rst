@@ -74,6 +74,53 @@ What does this code do? ::
   number = random.randint(1,10)
   print(number)
 
-* It generates a random number between 1 and 10 and prints it out. We
-  should keep the number secret until the player guesses correctly!
+* It generates a random number between 1 and 10 using the function
+  `random.randint` and prints it out. We should keep the number secret
+  until the player guesses correctly!
   
+Here's an improved version, what does it do? ::
+
+  import random
+  number = random.randint(1,10)
+  guess = input("Enter your guess: ")
+  if guess == number:
+    print("Correct!")
+  else:
+    print("Wrong. It was", number)
+
+* Now it ask the player to input a guess using the `input` function,
+  which takes a prompt to display to the player
+* Then it checks to see if they have guessed correctly.
+
+What type is the variable `number` and what type is the variable `guess`?
+
+* Ah, `number` is an `int` and `guess` is a `string` so if we compare
+  them they will never match because `2` does not equal `'2'`.
+
+What does this function do? ::
+
+  def int_input(prompt):
+    response = input(prompt)
+    return int(response)
+
+* It asks the user for some input, displaying `prompt`, converts it to
+  an `int` and returns it.
+
+Here's the function in our improved version, does it work now? ::
+
+  import random
+  number = random.randint(1,5) 
+
+  def int_input(prompt):
+    response = input(prompt)
+    return int(response)
+
+  guess = int_input("Enter your guess: ")
+  if guess == number:
+      print("Correct!")
+  else:
+      print("Wrong. It was", number)
+
+* Yes, but you often have to play it several times to get a correct guess!
+
+
