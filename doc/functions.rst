@@ -123,4 +123,15 @@ Here's the function in our improved version, does it work now? ::
 
 * Yes, but you often have to play it several times to get a correct guess!
 
+Can we use a `while` loop to keep the player guessing?
+
+* Yes
+
+But when would we stop?
+
+* When they got the correct answer. 
+
+
+
+  
 

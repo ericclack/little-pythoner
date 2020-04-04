@@ -21,13 +21,18 @@
 
 project = 'Little Pythoner'
 copyright = '2020, Eric Clack'
-author = 'Eric Clack'
+author = 'Eric Clack <eric@bn7.net>'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
 release = '0.1'
 
+# Include RST content at the end of every file,
+# useful for making variables here appear in documents
+rst_epilog = """
+.. |author| replace:: {author}
+""".format(author=author)
 
 # -- General configuration ---------------------------------------------------
 

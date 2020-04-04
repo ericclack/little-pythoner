@@ -25,11 +25,17 @@ that wants to learn Python.
    functions
    lists
 
+Get in touch
+------------
+
+We would love to hear how you've got on with this tutorial or receive
+any other feedback. Get in touch with the author: |author|
+
 ----
    
 Find this document at: https://little-pythoner.readthedocs.io/
 
-Inspired by `The Little Schemer`_. 
+Inspired by `The Little Schemer`_.
 
 .. _`The Little Schemer`: https://mitpress.mit.edu/books/little-schemer-fourth-edition
 .. _`Coder Dojo Brighton`: https://www.coderdojobrighton.co.uk/
