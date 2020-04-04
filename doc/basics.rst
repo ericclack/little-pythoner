@@ -30,7 +30,7 @@ Is this a number? ::
 What about this, still a number? ::
 
   1.28374
-
+  
 * Yes, that's a `float`, which means a floating point number, a
   bit bigger than 1.
 
