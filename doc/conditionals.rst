@@ -58,13 +58,23 @@ Why do we use `==` when comparing variables and numbers?
   test whether two expressions are equal. Python uses two different
   operators to avoid confusion.
 
+So what does this code do? ::
+
+  v = 5
+  if v = 1:
+    v*10
+
+* It raises a `SyntaxError` because we are not allowed to assign a
+  value to a variable in an `if statement`.
+
 OK, so back to the challenge: how do we produce the even squares of
 numbers 1 to 20?
 
 * I need to know how to test for an even number.
 
 Good point, you can do that using the remainder or modulus operator:
-`%` - this returns the remainder after a divition.
+`%` - this returns the remainder after a divition, e.g. `11 % 2` produces
+the remainder after dividing by `2`. 
 
 * So `11` divided by `2` has remainder `1`, so we would write that in
   Python like this: ::
@@ -73,7 +83,8 @@ Good point, you can do that using the remainder or modulus operator:
 
 Yes, so what does the code look like? 
 
-* This code should do it: ::
+* This code should do it because even numbers have zero remainder when
+  dividing by two. ::
 
     for v in range(1, 21):
       if v*v % 2 == 0:
