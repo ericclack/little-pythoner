@@ -1,3 +1,6 @@
-div.section#the-basics ul, div.section#loops ul, div.section#conditionals ul {
+div.section#the-basics ul,
+div.section#loops ul,
+div.section#conditionals ul,
+div.section#functions ul {
     margin-left: 50%;
 }

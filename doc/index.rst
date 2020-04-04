@@ -22,8 +22,8 @@ that wants to learn Python.
    repl
    loops
    conditionals
-   lists
    functions
+   lists
 
 ----
    
