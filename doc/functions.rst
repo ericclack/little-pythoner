@@ -25,8 +25,7 @@ This is a function, what does it do? ::
   def add(a, b):
     return a+b
 
-* It *defines* a function called `add` that we can use later to add
-  two numbers together.
+* It adds `a` and `b` together and returns the result.
 
 How do we call it?
 
